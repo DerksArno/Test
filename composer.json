@@ -1,0 +1,21 @@
+{
+    "name": "derksarno/test",
+    "description": "Test package",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Arno Derks",
+            "email": "derksarno@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "laravel/framework": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "DerksArno\\Test": "src/"
+        }
+    }
+}
